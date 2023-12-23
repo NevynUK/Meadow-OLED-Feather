@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MCU_WildernessLabs")(type "Legacy")(uri "${KIPRJMOD}/Libraries/WildernessLabs/KICAD_Meadow_EDA.lib")(options "")(descr ""))
+)
