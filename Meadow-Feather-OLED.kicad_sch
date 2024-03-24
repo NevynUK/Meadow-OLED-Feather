@@ -1928,6 +1928,10 @@
 		(uuid "81f624cb-2acf-4319-b6d8-ad83ceaad246")
 	)
 	(no_connect
+		(at 120.65 71.12)
+		(uuid "865b2055-a1a0-49f7-8005-e90b674bbd2a")
+	)
+	(no_connect
 		(at 48.26 55.88)
 		(uuid "91161bce-f998-48cf-a4dd-520d7147be92")
 	)
@@ -1954,6 +1958,10 @@
 	(no_connect
 		(at 48.26 66.04)
 		(uuid "f23edfb1-d08d-44f4-8901-7344dc11c90a")
+	)
+	(no_connect
+		(at 88.9 66.04)
+		(uuid "f9cdc697-cd4a-4a86-b5b9-2f588da99ba7")
 	)
 	(no_connect
 		(at 88.9 53.34)
@@ -2371,17 +2379,6 @@
 			(justify right bottom)
 		)
 		(uuid "c6853308-c708-48bc-844e-9bae42346000")
-	)
-	(label "D11"
-		(at 88.9 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cbbb040d-a7da-4f00-a291-6a23fdd4b47b")
 	)
 	(label "~Reset"
 		(at 48.26 38.1 180)
