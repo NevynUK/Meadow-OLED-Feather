@@ -1928,10 +1928,6 @@
 		(uuid "81f624cb-2acf-4319-b6d8-ad83ceaad246")
 	)
 	(no_connect
-		(at 120.65 71.12)
-		(uuid "865b2055-a1a0-49f7-8005-e90b674bbd2a")
-	)
-	(no_connect
 		(at 48.26 55.88)
 		(uuid "91161bce-f998-48cf-a4dd-520d7147be92")
 	)
