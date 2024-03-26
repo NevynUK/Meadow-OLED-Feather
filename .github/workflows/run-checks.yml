@@ -1,0 +1,33 @@
+name: Run ERC and DRC checks
+
+on:
+  repository_dispatch:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  RunChecks:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout source code
+      uses: actions/checkout@v4
+
+    - name: Run KiCad ERC
+      id: erc
+      uses: sparkengineering/kicad-action@v1
+      if: '!cancelled()'
+      with:
+        kicad_sch: Meadow-Feather-OLED.kicad_sch
+        sch_erc: true
+
+    - name: Run KiCad DRC
+      id: drc
+      uses: sparkengineering/kicad-action@v1
+      if: '!cancelled()'
+      with:
+        kicad_pcb: Meadow-Feather-OLED.kicad_pcb
+        pcb_drc: true
